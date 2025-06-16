@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>친환경 캠퍼스 플랫폼</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>친환경 캠퍼스 플랫폼</h1>
+    </header>
+    <main>
+        <section id="energy">
+            <h2>에너지 사용 현황</h2>
+            <p id="energy-usage">오늘의 사용량: 0 kWh</p>
+        </section>
+        <section id="challenges">
+            <h2>친환경 챌린지</h2>
+            <ul id="task-list">
+                <li><input type="checkbox" data-points="5"> 텀블러 사용하기 (+5)</li>
+                <li><input type="checkbox" data-points="3"> 전등 끄기 (+3)</li>
+                <li><input type="checkbox" data-points="2"> 재활용 분리수거 (+2)</li>
+            </ul>
+            <p id="score">획득 포인트: 0</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
